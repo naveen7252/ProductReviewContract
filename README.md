@@ -1,6 +1,8 @@
 # ProductReviewContract
 Contract to write reviews for any product to be executed on NULS blockchain.
 
+Here, product can be anything like movie/purchase/event/show etc.Dapp has to call this contract to store/retrieve reviews of product by calling below methods.
+
 There are two methods in the contract:
 
 1. Write Review: We can write review to any product by passing product id and review comments to this method. Reviews are stored in Nuls Blockchain.The account which executed this method is treated ad writer for that review.
